@@ -39,6 +39,17 @@ body {
    
 }
 
+.header-style {
+
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.icon {
+
+    color: var(--color-white);
+}
+
 .nav-item {
 
     margin: 0rem 1rem;
