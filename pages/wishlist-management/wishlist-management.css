@@ -9,20 +9,6 @@
 
 }
 
-
-.main-wrapper {
-
-    display: grid;
-    height: 100vh;
-    grid-gap: 2rem;
-    grid-template-columns: 1fr 7fr;
-    padding-bottom: 0.5rem;
-    grid-template-areas: "header header" "aside main";
-    margin-top: 1rem;
-    padding-right: 1.5rem;
-
-}
-
 .flex-column {
 
     display: flex;
@@ -89,18 +75,15 @@ input {
     font-size: 0.9rem;
 }
 
-/* .item-conatiner {
-
-    grid-area: main;
-} */
-
 .item-heading {
 
     display: flex;
     justify-content: flex-start;
     align-items: center;
     column-gap: 0.5rem;
-    text-decoration: underline var(--secondary-color) ;
+    text-decoration: underline var(--secondary-color);
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 .item-heading p {
@@ -112,9 +95,10 @@ input {
 
     display: grid;
     height: 100vh;
-    grid-gap: 1.5rem;
+    grid-gap: 1.8rem;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin-top: 0.5rem;
+    padding: 1rem;
 }
 
 .card-image {
@@ -208,8 +192,8 @@ input {
 
     position: absolute;
     color: var(--color-white);
-    right: 0.7rem;
-    top: 1.3rem;
+    right: 1.3rem;
+    top: 0.5rem;
     font-size: 1.2rem;
     cursor: pointer;
 
