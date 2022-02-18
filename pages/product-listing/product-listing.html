@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="./product-listing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation and Header -->
+
+
+    <nav class="navigation-container">
+
+        <div class="nav-brand"> <a class="nav-brand" href="/index.html">NOZAMA</a>
+            <i class="fa-solid fa-arrow-left-long"></i>
+        </div>
+
+        <div class="input-search">
+
+            <input class="search" placeholder="Search" type="text">
+        </div>
+
+        <ul class="nav-pills">
+
+            <button class="nav-item button"> <a class="login" href="">Login</a> </button>
+
+            <div class="badge-element nav-item">
+                <i class="fa-solid fa-cart-arrow-down icon"></i>
+                <span class="notif-cart">7</span>
+            </div>
+
+            <div class="badge-element nav-item">
+                <i class="fa-regular fa-heart icon"></i>
+                <span class="notif-cart">12</span>
+            </div>
+        </ul>
+    </nav>
+
+    <div class="main-wrapper">
+
+
+
+
+        <!-- Filters with aside tag -->
+
+
+        <aside class="filter-container flex-column">
+
+            <div class="filter-head filter-spaces">
+
+                <h3 class="filter-headings">Filters</h3>
+                <a class="filter-clear" href="#">Clear</a>
+            </div>
+
+            <div class="filter-price flex-column filter-spaces">
+
+                <h3 class="filter-headings">Price</h3>
+                <div class="filter-price-range">
+                    <h3 class="filter-headings">100</h3>
+                    <h3 class="filter-headings">500</h3>
+                    <h3 class="filter-headings">1000</h3>
+                </div>
+                <input type="range">
+            </div>
+            <div class="filter-category flex-column">
+                <h3 class="filter-headings">Category</h3>
+                <div class="inp-checkbox">
+                    <input type="checkbox" class="input-checkbox">
+                    <p class="checkbox-notify">Men Clothing</p>
+                </div>
+
+                <div class="inp-checkbox">
+                    <input type="checkbox" class="input-checkbox">
+                    <p class="checkbox-notify">Women Clothing</p>
+                </div>
+            </div>
+
+            <div class="filter-rating flex-column filter-spaces">
+
+                <h3 class="filter-headings">Rating</h3>
+                <form class="rating-options flex-column">
+
+                    <label> <input type="radio" name="rating" value="4 Stars & above">4 Stars & above</label>
+                    <label> <input type="radio" name="rating" value="3 Stars & above">3 Stars & above</label>
+                    <label> <input type="radio" name="rating" value="2 Stars & above">2 Stars & above</label>
+                    <label> <input type="radio" name="rating" value="1 Stars & above">1 Star & above</label>
+                </form>
+            </div>
+
+            <div class="filter-sortby flex-column filter-spaces">
+
+                <h3 class="filter-headings">Sort by</h3>
+                <form class="rating-options flex-column">
+                    <label><input type="radio" name="rating" value="Price: Low to High">Price: Low to High</label>
+                    <label> <input type="radio" name="rating" value="Price: High to Low"> Price: High to Low </label>
+                </form>
+            </div>
+        </aside>
+
+        <!-- Product Listing - Main  -->
+
+        <main class="item-container">
+
+            <div class="item-heading">
+
+                <h3>Show All Products</h3>
+
+                <p>(Showing 10 Products)</p>
+            </div>
+
+            <div class="item-list">
+
+                <div class="card-image">
+                    <div class="card-vertical">
+
+                        <div class="card-vertical-info flex-column">
+
+                            <img class="img-responsive adjust-image" src="/assets/img-product.jpg" alt="shopping-item">
+                            <p class="card-text">Some info about the product</p>
+                            <p class="card-subtext">A bit more detail about the product</p>
+                            <p class="card-text card-price">3,999
+
+                                <span class="text-line-through">7,999</span>
+                            </p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                            <span class="card-heart-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-image">
+                    <div class="card-vertical">
+
+                        <div class="card-vertical-info flex-column">
+
+                            <img class="img-responsive adjust-image" src="/assets/img-product.jpg" alt="shopping-item">
+                            <p class="card-text">Some info about the product</p>
+                            <p class="card-subtext">A bit more detail about the product</p>
+                            <p class="card-text card-price">3,999
+
+                                <span class="text-line-through">7,999</span>
+                            </p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                            <span class="card-heart-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-image">
+                    <div class="card-vertical">
+
+                        <div class="card-vertical-info flex-column">
+
+                            <img class="img-responsive adjust-image" src="/assets/img-product.jpg" alt="shopping-item">
+                            <p class="card-text">Some info about the product</p>
+                            <p class="card-subtext">A bit more detail about the product</p>
+                            <p class="card-text card-price">3,999
+
+                                <span class="text-line-through">7,999</span>
+                            </p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                            <span class="card-heart-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-image">
+                    <div class="card-vertical">
+
+                        <div class="card-vertical-info flex-column">
+
+                            <img class="img-responsive adjust-image" src="/assets/img-product.jpg" alt="shopping-item">
+                            <p class="card-text">Some info about the product</p>
+                            <p class="card-subtext">A bit more detail about the product</p>
+                            <p class="card-text card-price">3,999
+
+                                <span class="text-line-through">7,999</span>
+                            </p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                            <span class="card-heart-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card-image">
+                    <div class="card-vertical">
+
+                        <div class="card-vertical-info flex-column">
+
+                            <img class="img-responsive adjust-image" src="/assets/img-product.jpg" alt="shopping-item">
+                            <p class="card-text">Some info about the product</p>
+                            <p class="card-subtext">A bit more detail about the product</p>
+                            <p class="card-text card-price">3,999
+
+                                <span class="text-line-through">7,999</span>
+                            </p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                            <span class="card-heart-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card-image">
+                    <div class="card-vertical">
+
+                        <div class="card-vertical-info flex-column">
+
+                            <img class="img-responsive adjust-image" src="/assets/img-product.jpg" alt="shopping-item">
+                            <p class="card-text">Some info about the product</p>
+                            <p class="card-subtext">A bit more detail about the product</p>
+                            <p class="card-text card-price">3,999
+
+                                <span class="text-line-through">7,999</span>
+                            </p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                            <span class="card-heart-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card-image">
+                    <div class="card-vertical">
+
+                        <div class="card-vertical-info flex-column">
+
+                            <img class="img-responsive adjust-image" src="/assets/img-product.jpg" alt="shopping-item">
+                            <p class="card-text">Some info about the product</p>
+                            <p class="card-subtext">A bit more detail about the product</p>
+                            <p class="card-text card-price">3,999
+
+                                <span class="text-line-through">7,999</span>
+                            </p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                            <span class="card-heart-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card-image">
+                    <div class="card-vertical">
+
+                        <div class="card-vertical-info flex-column">
+
+                            <img class="img-responsive adjust-image" src="/assets/img-product.jpg" alt="shopping-item">
+                            <p class="card-text">Some info about the product</p>
+                            <p class="card-subtext">A bit more detail about the product</p>
+                            <p class="card-text card-price">3,999
+
+                                <span class="text-line-through">7,999</span>
+                            </p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                            <span class="card-heart-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card-image">
+                    <div class="card-vertical">
+
+                        <div class="card-vertical-info flex-column">
+
+                            <img class="img-responsive adjust-image" src="/assets/img-product.jpg" alt="shopping-item">
+                            <p class="card-text">Some info about the product</p>
+                            <p class="card-subtext">A bit more detail about the product</p>
+                            <p class="card-text card-price">3,999
+
+                                <span class="text-line-through">7,999</span>
+                            </p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                            <span class="card-heart-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card-image">
+                    <div class="card-vertical">
+
+                        <div class="card-vertical-info flex-column">
+
+                            <img class="img-responsive adjust-image" src="/assets/img-product.jpg" alt="shopping-item">
+                            <p class="card-text">Some info about the product</p>
+                            <p class="card-subtext">A bit more detail about the product</p>
+                            <p class="card-text card-price">3,999
+
+                                <span class="text-line-through">7,999</span>
+                            </p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                            <span class="card-heart-icon">
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
