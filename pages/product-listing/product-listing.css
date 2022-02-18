@@ -23,6 +23,12 @@
 
 }
 
+.header-style {
+
+    text-decoration: none;
+    color: var(--color-white);
+}
+
 .flex-column {
 
     display: flex;
