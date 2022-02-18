@@ -23,6 +23,8 @@
 
 }
 
+
+
 .flex-column {
 
     display: flex;
@@ -89,11 +91,6 @@ input {
     font-size: 0.9rem;
 }
 
-/* .item-conatiner {
-
-    grid-area: main;
-} */
-
 .item-heading {
 
     display: flex;
@@ -114,7 +111,6 @@ input {
     height: 100vh;
     grid-gap: 1.5rem;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin-top: 0.5rem;
     margin-top: 1rem;
 }
 
