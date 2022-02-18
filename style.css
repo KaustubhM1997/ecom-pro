@@ -36,6 +36,11 @@
     justify-content: space-around;
 }
 
+.icon {
+
+    color: var(--color-white);
+}
+
 .men-card, .women-card, .kids-card, .best-card {
 
     background-color: var(--secondary-color);
