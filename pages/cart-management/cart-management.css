@@ -134,7 +134,7 @@
   border: var(--border-default);
   width: 17rem;
   height: 18rem;
-  box-shadow: var(--box-shadow)
+  box-shadow: var(--box-shadow);
   border: none;
   border-radius: 5px;
   padding: 1rem;
