@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Management</title>
+  <link rel="stylesheet" href="./cart-management.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navigation-container">
+    <div class="nav-brand"><a class="header-style" href="/index.html">NOZAMA</a>
+      <i class="fa-solid fa-arrow-left-long"></i>
+    </div>
+    <div class="input-search">
+      <input class="search" placeholder="Search" type="search">
+    </div>
+    <ul class="nav-pills">
+      <button class="nav-item button"> <a class="login" href="">Login</a> </button>
+      <div class="badge-element nav-item">
+        <a href="/pages/wishlist-management/wishlist-management.html">
+          <i class="fa-regular fa-heart icon"></i>
+        </a>
+        <span class="notif-cart">12</span>
+      </div>
+      <div class="badge-element nav-item">
+        <a href="/">
+          <i class="fa-solid fa-cart-arrow-down icon"></i>
+        </a>
+        <span class="notif-cart">7</span>
+      </div>
+    </ul>
+  </nav>
+
+  <!-- CART CONTAINER -->
+
+  <div class="item-heading">
+
+    <h3>My Cart</h3>
+
+  </div>
+
+  <div class="main-container">
+    <!-- Product card -->
+
+    <div class="product-card">
+      <div class="image-section">
+        <img class="cart-img" src="/assets/img-product.jpg" alt="cart-item" />
+      </div>
+      <div class="product-details">
+        <span class="card-heading">Nike Air Jordan</span>
+        <div class="product-price">
+          <span class="discount-price">₹7200</span>
+          <small class="original-price">₹9500</small>
+        </div>
+
+        <div class="quantity">
+          <button class="btn">-</button>
+          <input value="2" class="qty-input" type="number">
+          <button class="btn">+</button>
+        </div>
+
+        <div class="cta-buttons">
+          <button class="btn-primary">Move to Wishlist</button>
+          <span class="card-heart-icon secondary">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Price card -->
+
+    <div class="price-details">
+      <div class="price-spec">
+        <span>Price (2 Items)</span>
+        <span>₹19,000</span>
+      </div>
+
+      <div class="price-spec">
+        <span>Discount</span>
+        <span class="text-green">- ₹4,600</span>
+      </div>
+
+      <div class="price-spec">
+        <span>Delivery</span>
+        <span class="text-green">FREE</span>
+      </div>
+
+      <hr class="theme-break">
+
+      <div class="price-spec">
+        <span>Total Amount</span>
+        <span>₹14,400</span>
+      </div>
+
+      <hr class="theme-break">
+
+      <button class="btn-order">Place Order</button>
+    </div>
+  </div>
+</body>
+
+</html>

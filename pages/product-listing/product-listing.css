@@ -18,7 +18,7 @@
     grid-template-columns: 1fr 7fr;
     padding-bottom: 0.5rem;
     grid-template-areas: "header header" "aside main";
-    margin-top: 1rem;
+    margin-top: 5rem;
     padding-right: 1.5rem;
 
 }
