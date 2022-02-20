@@ -10,7 +10,8 @@
         height: 85vh;
         border: 1px solid;
         width: 25rem;
-        margin-left: 30rem;
+        margin-left: auto;
+        margin-right: auto;
         border: none;
         box-shadow: var(--box-shadow);
         padding-left: 2rem;
