@@ -68,7 +68,7 @@ input {
     font: inherit;
 }
 
-.filter-category .input-checkbox {
+.input-checkbox-container {
 
     display: flex;
     column-gap: 0.6rem;
