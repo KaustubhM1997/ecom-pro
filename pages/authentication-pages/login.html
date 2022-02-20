@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Authentication Pages: Login</title>
+    <link rel="stylesheet" href="./login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
 
+</head>
 <body>
+
+    <!-- NAVIGATION -->
+
+
     <nav class="navigation-container">
 
         <div class="nav-brand"><a class="header-style" href="/index.html">NOZAMA</a>
@@ -24,7 +27,7 @@
 
         <ul class="nav-pills">
 
-            <button class="nav-item button"> <a class="login" href="/pages/authentication-pages/login.html">Login</a> </button>
+            <button class="nav-item button"> <a class="login" href="">Logout</a> </button>
 
 
             <div class="badge-element nav-item">
@@ -46,51 +49,53 @@
             </div>
         </ul>
     </nav>
-    <section class="container-img">
 
-        <img class="main-image" src="/assets/ecommerce-main.jpg" alt="">
 
-        <button class="button primary"> <a class="login" href="/pages/product-listing/product-listing.html">Shop Now</a> </button>
-    </section>
+    <!-- LOGIN CARD -->
 
-    <div class="sub-heading">
+    <div class="login-container">
 
-        <h2 class="h2">Shop by Category</h2>
+        <h2 class="login-header">Login</h2>
+
+        <div class="login-details">
+
+            <div class="login-subdetails">
+
+                <p class="subdetails-header">Email address</p>
+                <input class="login-input" placeholder="kaustubh@gmail.com" type="text">
+            </div>
+
+            <div class="login-subdetails">
+
+                <p  class="subdetails-header">Password</p>
+                <input class="login-input" placeholder="********" type="text">
+            </div>
+
+            <div class="forgot-password">
+
+                <input type="checkbox"> <p class="password-remember">Remember me</p>
+
+                <p class="forgot-password-text">Forgot your Password?</p>
+            </div>
+
+            <div class="btn-container">
+
+                <button class="login-btn">Login</button>
+            </div>
+
+            <div class="new-account">
+
+                <p> <a class="text" href="/pages/authentication-pages/signup.html">Create New Account ></a> </p>
+            </div>
+
+
+
+        </div>
+
+
     </div>
 
-    <div class="card-container">
 
-        <div class="men-card">
-
-            <p class="card-heading">Men</p>
-
-            <img class="img-card adjust" src="/assets/men-nav.webp" alt="">
-        </div>
-
-        <div class="women-card">
-
-            <p class="card-heading">Women</p>
-
-            <img class="img-card adjust" src="/assets/women-nav.webp" alt="">
-        </div>
-
-        <div class="kids-card">
-
-            <p class="card-heading">Kids</p>
-
-            <img class="img-card adjust" src="/assets/kids-nav.webp" alt="">
-        </div>
-
-        <div class="best-card">
-
-            <p class="card-heading">Best sellers</p>
-
-            <img class="img-card adjust" src="/assets/best-seller nav.jpg" alt="">
-        </div>
-
-    </div>
-
-
+    
 </body>
-
 </html>
