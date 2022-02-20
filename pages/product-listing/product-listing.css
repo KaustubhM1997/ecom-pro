@@ -31,7 +31,7 @@
     flex-direction: column;
 }
 
-.filter-head {
+.filter-header {
 
     display: flex;
     justify-content: space-between;
@@ -68,7 +68,7 @@ input {
     font: inherit;
 }
 
-.filter-category .inp-checkbox {
+.filter-category .input-checkbox {
 
     display: flex;
     column-gap: 0.6rem;
